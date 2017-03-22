@@ -13,7 +13,10 @@
 *.*2010*
 *.bak
 *.bk
+*.css_*
 *.htaccess.*
+*.htaccess_*
+*.php_*
 
 # Compiled source #
 ###################
@@ -28,6 +31,14 @@
 #############
 *.sql
 *.sqlite
+
+# Documents #
+#############
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
 
 # Libraries #
 #############
@@ -50,7 +61,7 @@ error_log.*
 *.avi
 *.mov
 *.mp4
-*.pdf
+*.wmv
 
 # Packages #
 ############
