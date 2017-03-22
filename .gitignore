@@ -4,8 +4,6 @@
 
 # Clutter #
 ###########
-*.bak
-*.bk
 *.*2016*
 *.*2015*
 *.*2014*
@@ -13,6 +11,9 @@
 *.*2012*
 *.*2011*
 *.*2010*
+*.bak
+*.bk
+*.htaccess.*
 
 # Compiled source #
 ###################
@@ -64,8 +65,14 @@ error_log.*
 *.tar
 *.zip
 
+# Third Party #
+###############
+google*.html
+
 # OS generated files #
 ######################
+.bash_history
+.mysql_history
 .DS_Store
 .DS_Store?
 ._*
